@@ -1,0 +1,105 @@
+body.light {
+    background: #FFFFFF;
+
+    .container {
+        background: #000;
+        background: inherit;
+        border: 2px solid #000000;
+        box-shadow: 0px 5px 0px #000000;
+
+        .home-page {
+            color: #000;
+
+            header {
+                color: #000;
+                border-bottom: 2px solid #5B57E0;
+
+                .colors {
+
+                    span {
+                        padding: 10px;
+                        font-size: 0px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    .dark {
+                        background-color: #2C2F33;
+                    }
+
+                    .white {
+                        background-color: #fff;
+                        border: 1px solid #000;
+                    }
+                }
+            }
+
+            .input-part {
+                color: #000;
+                background: #eee;
+                box-shadow: inset -5.9893px -5.9893px 17.9679px rgba(255, 255, 255, 0.5), inset 5.9893px 5.9893px 17.9679px rgba(136, 160, 183, 0.25);
+
+                input {
+                    border: none;
+                    outline: none;
+                    width: 100%;
+                    background: inherit;
+                    font-size: 19px;
+                    color: #000;
+                }
+
+                .clear {
+                    color: #0000;
+                }
+            }
+
+            .hint {
+                color: black;
+
+                span {
+                    color: #5B57E0;
+                    font-size: 18px;
+                }
+            }
+
+            .hint.error {
+                color: #d43a3a;
+            }
+
+            ul {
+                display: none;
+                padding: 0px 20px;
+
+                .word {
+                    i {
+                        &:hover {
+                            color: #5B57E0;
+                        }
+                    }
+
+                }
+
+                .content {
+                    .box {
+                        border: 0.5px solid #EEEEEE;
+                        background: #EEEEEE;
+                        box-shadow: -5.9893px -5.9893px 17.9679px rgba(255, 255, 255, 0.5), 5.9893px 5.9893px 17.9679px rgba(136, 160, 183, 0.25);
+
+                    }
+
+                    .synonyms {
+                        .details {
+                            .list {
+                                span {
+                                    cursor: pointer;
+                                    color: #5B57E0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Dictionary App</title>
+</head>
+<body class="">
+  <div class="container">
+    <div class="home-page">
+      <header>
+        English Dictionary 
+        <div class="colors">
+          <span class="dark">D</span>
+          <span class="white">W</span>
+        </div>
+
+      </header>
+
+      <div class="input-part">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input 
+        type="text"
+        placeholder="Search a word">
+      </div>
+
+      <p class="hint">
+       Type a word and press enter to get it's meaning
+      </p>
+
+      <ul>
+        <li class="word">
+          <div class="details">
+            <p>happy</p>
+            <span>adjective <span>/hapi/</span></span>
+          </div>
+          <i class="fa-solid fa-volume-high"></i>
+        </li>
+        <div class="content">
+          <li class=" meaning box">
+            <div class="details">
+              <p class="title">Meaning</p>
+            </div>
+          </li>
+
+          <li class="example box">
+            <div class="details">
+              <p class="title">Example</p>
+              <span class="ex txt">I am happy to be here.</span>
+            </div>
+          </li>
+          
+          <li class="synonyms box">
+            <div class="details">
+              <p class="title">Synonyms</p>
+              <div class="list">
+              </div>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+    
+  </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

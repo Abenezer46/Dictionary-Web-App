@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 15px;
+  gap: 15px;
+  color: #fff;
+}
+.home-page header {
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  border-bottom: 2px solid #5B57E0;
+}
+.home-page header .colors {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.home-page header .colors span {
+  padding: 10px;
+  font-size: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home-page header .colors .dark {
+  background-color: #2C2F33;
+  border: 1px solid #fff;
+}
+.home-page header .colors .white {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+.home-page .input-part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-size: 20px;
+  background: #2C2F33;
+  box-shadow: inset -5px -5px 15px #3B4451, inset 5px 5px 15px #000000;
+  border-radius: 20px;
+  padding: 15px;
+}
+.home-page .input-part input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: inherit;
+  font-size: 19px;
+  color: #fff;
+}
+.home-page .input-part .clear {
+  color: #dad0d0;
+}
+.home-page .hint {
+  font-size: 14px;
+  text-align: center;
+  color: #837878;
+}
+.home-page .hint span {
+  color: #5B57E0;
+  font-size: 18px;
+}
+.home-page .hint.error {
+  color: #d43a3a;
+}
+.home-page ul {
+  display: none;
+  padding: 0px 20px;
+}
+.home-page ul .word {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.home-page ul .word .details {
+  font-size: 24px;
+  font-weight: 500;
+}
+.home-page ul .word .details span {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.home-page ul .word i {
+  position: relative;
+  top: 8px;
+  cursor: pointer;
+}
+.home-page ul .word i:hover {
+  color: #5B57E0;
+}
+.home-page ul .content .box {
+  background: #2C3036;
+  border: 0.5px solid #2C3036;
+  box-shadow: 5px 5px 10px #1F2427, -5px -5px 10px #485057;
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.home-page ul .content .box .details {
+  display: flex;
+  flex-direction: column;
+}
+.home-page ul .content .box .details .title {
+  font-size: 19px;
+  font-weight: 500;
+}
+.home-page ul .content .box .details .txt {
+  font-size: 14px;
+}
+.home-page ul .content .synonyms .details .list span {
+  cursor: pointer;
+  color: #5B57E0;
+}
+
+body.light {
+  background: #FFFFFF;
+}
+body.light .container {
+  background: #000;
+  background: inherit;
+  border: 2px solid #000000;
+  box-shadow: 0px 5px 0px #000000;
+}
+body.light .container .home-page {
+  color: #000;
+}
+body.light .container .home-page header {
+  color: #000;
+  border-bottom: 2px solid #5B57E0;
+}
+body.light .container .home-page header .colors span {
+  padding: 10px;
+  font-size: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body.light .container .home-page header .colors .dark {
+  background-color: #2C2F33;
+}
+body.light .container .home-page header .colors .white {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+body.light .container .home-page .input-part {
+  color: #000;
+  background: #eee;
+  box-shadow: inset -5.9893px -5.9893px 17.9679px rgba(255, 255, 255, 0.5), inset 5.9893px 5.9893px 17.9679px rgba(136, 160, 183, 0.25);
+}
+body.light .container .home-page .input-part input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: inherit;
+  font-size: 19px;
+  color: #000;
+}
+body.light .container .home-page .input-part .clear {
+  color: rgba(0, 0, 0, 0);
+}
+body.light .container .home-page .hint {
+  color: black;
+}
+body.light .container .home-page .hint span {
+  color: #5B57E0;
+  font-size: 18px;
+}
+body.light .container .home-page .hint.error {
+  color: #d43a3a;
+}
+body.light .container .home-page ul {
+  display: none;
+  padding: 0px 20px;
+}
+body.light .container .home-page ul .word i:hover {
+  color: #5B57E0;
+}
+body.light .container .home-page ul .content .box {
+  border: 0.5px solid #EEEEEE;
+  background: #EEEEEE;
+  box-shadow: -5.9893px -5.9893px 17.9679px rgba(255, 255, 255, 0.5), 5.9893px 5.9893px 17.9679px rgba(136, 160, 183, 0.25);
+}
+body.light .container .home-page ul .content .synonyms .details .list span {
+  cursor: pointer;
+  color: #5B57E0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #2C2F33; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  background: #fff;
+  max-width: 375px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background: #2C3036;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 5px 0px #FFFFFF;
+  border-radius: 40px;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

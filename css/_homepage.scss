@@ -101,9 +101,10 @@
             }
 
             i {
-                position: relative;
-                top: 8px;
+                margin-top: 10px;
                 cursor: pointer;
+                font-size: 20px;
+                height: fit-content;
 
                 &:hover {
                     color: #5B57E0;

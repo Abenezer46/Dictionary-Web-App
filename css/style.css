@@ -90,9 +90,12 @@
   opacity: 0.6;
 }
 .home-page ul .word i {
-  position: relative;
-  top: 8px;
+  margin-top: 10px;
   cursor: pointer;
+  font-size: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .home-page ul .word i:hover {
   color: #5B57E0;
